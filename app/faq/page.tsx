@@ -210,10 +210,10 @@ const FAQ = () => (
 		<hr />
 		<section>
 			<HA2 id="iso-compatible">How do I know my Brawl ISO is compatible?</HA2>
+			<img src="https://i.imgur.com/qNOMtx0.png"></img>
 			<p>
 				To check the compatibility of your Brawl ISO, first ensure that it is an NTSC-U region
-				disc. Then, you may <a href="https://i.imgur.com/YHvLwPU.png">check its integrity</a>
-				in Dolphin. From the Dolphin window:
+				disc. Then, you may check its integrity in Dolphin. From the Dolphin window:
 			</p>
 			<ul>
 				<li>Right-click on Brawl and select <code>Properties</code></li>
