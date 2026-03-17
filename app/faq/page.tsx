@@ -291,9 +291,12 @@ const FAQ = () => (
 				Can I add new characters to Project+? Does BrawlEX work with Project+?
 			</HA2>
 			<p>
-				"P+Ex" integrates the BrawlEx engine and CSS Expansion add-on into
-				Project+ to allow for an expanded roster of custom characters. For more
-				information, check out{" "}
+				"<a href="https://kingjigglypuff.github.io/">Project+Ex</a>" (or P+Ex)
+				integrates the BrawlEx engine and CSS Expansion add-on into Project+ to
+				allow for an expanded roster of custom characters.
+			</p>
+			<p>
+				For more information, check out{" "}
 				<a href="https://docs.google.com/document/d/1mAoVGymOkL3FwiMxfEt1V24qxnAWiO8I66G3zlU0ij8">
 					this Google Docs document
 				</a>
@@ -304,9 +307,7 @@ const FAQ = () => (
 		<section>
 			<HA2 id="tilt-stick">Is Tilt Stick fixed in Project+?</HA2>
 			<p>
-				Yes, Project+ has working Tilt Stick.
-				<br />
-				See the{" "}
+				Yes, Project+ has working Tilt Stick. See the{" "}
 				<Link href="/features#training-practice-controls">
 					Features page
 				</Link>{" "}
@@ -341,18 +342,19 @@ const FAQ = () => (
 				tournament will run with "Auto L-Cancel" toggled on or off.
 			</p>
 		</section>
-		<h4>
-			How can I play Netplay when the traversal servers are down? How can i play
-			using direct IPs?
-		</h4>
-		<p>
-			<a href="https://www.smashladder.com/guides/view/26jo/direct-ip-hosting">
-				Direct IP Hosting Guide
-			</a>
-		</p>
 		<hr />
+		<section>
+			<HA2 id="traversal-down">
+				How can I play Netplay when the traversal servers are down?
+			</HA2>
+			<p>
+				You can connect directly by following the <a href="https://www.smashladder.com/guides/view/26jo/direct-ip-hosting">
+					Direct IP Hosting Guide
+				</a>.
+			</p>
+		</section>
 		<hr />
-		<h4>Can I play Project+ on an M1 Mac (ARM)?</h4>
+		<HA2 id="m1-mac">Can I play Project+ on an M1 Mac (ARM)?</HA2>
 		<p>
 			We are planning to swap the base of our Dolphin build sometime in the
 			future to restore Mac compatibility. M1 and beyond Macs will not be
