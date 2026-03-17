@@ -191,13 +191,6 @@ const FAQ = () => (
 				To play Project+ on Dolphin/Netplay, see the{" "}
 				<Link href="/install/dolphin">Dolphin Guide</Link>.
 			</p>
-			<p>
-				How do I set up Project+ on Linux? To install Project+ on Linux, install
-				the AppImage from here:
-				<a href="https://github.com/jlambert360/FPM-AppImage/releases">
-					https://github.com/jlambert360/FPM-AppImage/releases
-				</a>
-			</p>
 		</section>
 		<hr />
 		<section>
@@ -353,16 +346,6 @@ const FAQ = () => (
 			</a>
 		</p>
 		<hr />
-		<section>
-			<HA2 id="linux">How can I set up Project+ on Linux?</HA2>
-			<p>
-				To install Project+ on Linux, install{" "}
-				<a href="https://github.com/jlambert360/FPM-AppImage/releases">
-					the AppImage from here
-				</a>
-				.
-			</p>
-		</section>
 		<hr />
 		<h4>Can I play Project+ on an M1 Mac (ARM)?</h4>
 		<p>
