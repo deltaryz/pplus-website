@@ -13,6 +13,19 @@ const FAQ = () => (
 		<HA1 id="frequently-asked-questions">Frequently Asked Questions</HA1>
 		<hr />
 		<section>
+			<HA2 id="matchmaking">Does Project+ have matchmaking like Slippi?</HA2>
+			<p>
+				Unfortunately, Project+ does not have matchmaking like Slippi. Most
+				matchmaking happens through <a href="https://discord.gg/vdssRDg">Discord.</a>
+			</p>
+			<p>
+				See{" "}
+				<Link href="/find-communities">Find Communities</Link> to find
+				communities for matchmaking.
+			</p>
+		</section>
+		<hr />
+		<section>
 			<HA2 id="rollback">Does Project+ have Rollback?</HA2>
 			<p>
 				Unfortunately, Project+ does not have rollback netcode. While it has
@@ -29,17 +42,6 @@ const FAQ = () => (
 				Brawlback or support its development, you can join the Brawlback Discord
 				community on the <Link href="/find-communities">Find Communities</Link>{" "}
 				page.
-			</p>
-		</section>
-		<hr />
-		<section>
-			<HA2 id="matchmaking">Does Project+ have matchmaking like Slippi?</HA2>
-			<p>
-				Unfortunately, Project+ does not have matchmaking like Slippi. Most
-				matchmaking happens through Discord. See{" "}
-				<a href="#rollback">Rollback</a> for more information and{" "}
-				<Link href="/find-communities">Find Communities</Link> to find
-				communities for matchmaking.
 			</p>
 		</section>
 		<hr />
