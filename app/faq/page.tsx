@@ -182,16 +182,19 @@ const FAQ = () => (
 				Bros. Brawl, so they are incompatible with versions from other regions
 				(such as the PAL version that is prominent in Europe).
 			</p>
+		</section>
+		<hr />
+		<section>
+			<HA2 id="not-ntsc">How do I play on a system that isn't NTSC-U?</HA2>
 			<p>
-				<strong>
-					You can play Project M and Project+ as well as any other Brawl mod on
-					any system using the{" "}
-					<Link href="/install/usb-loader">USB Loader method</Link>.
-				</strong>
+				You can play Project M and Project+, as well as any other Brawl mod, on
+				ANY region system using the{" "}
+				<a href="https://docs.google.com/document/d/1ciEilZUnErUFPJCs0bxIM40Impu4VrIlBohxeD3dSqE/edit?tab=t.0">ISO / USB Loader</a> section
+				of this guide.
 			</p>
 			<p>
-				To play Project+ on Dolphin/Netplay, see the{" "}
-				<Link href="/install/dolphin">Dolphin Guide</Link>.
+				To play Project+ on PC with Dolphin (Netplay supported), see the{" "}
+				<a href="https://www.smashladder.com/guides/view/27jj/project-m/project-v2-netplay-guide">Dolphin Netplay Guide</a>.
 			</p>
 		</section>
 		<hr />
@@ -247,8 +250,8 @@ const FAQ = () => (
 		<section>
 			<HA2 id="controller">How do I setup my controller?</HA2>
 			<a href="https://www.smashladder.com/guides/view/26oz/controller-guide-2-0">
-				Click here for Smashladder's Controller Guide.
-			</a>
+				Click here
+			</a>  for Smashladder's Controller Guide.
 		</section>
 		<hr />
 		<section>
