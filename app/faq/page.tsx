@@ -213,24 +213,27 @@ const FAQ = () => (
 		<section>
 			<HA2 id="iso-compatible">How do I know my Brawl ISO is compatible?</HA2>
 			<p>
-				To check the compatibility of your Brawl ISO, you need to check its MD5
-				in Dolphin. From the Dolphin window, right click on Brawl and select{" "}
-				<code>Properties</code>, navigate to the <code>Info</code> tab, and then
-				click the <code>Compute</code> button located to the right of{" "}
-				<code>MD5 Checksum</code> as seen in this{" "}
-				<a href="https://imgur.com/xzye9my">screenshot</a>.
+				To check the compatibility of your Brawl ISO, first ensure that it is an NTSC-U region
+				disc. Then, you may <a href="https://i.imgur.com/YHvLwPU.png">check its integrity</a>
+				in Dolphin. From the Dolphin window:
 			</p>
-			<p>Compatible ISOs may include:</p>
+			<ul>
+				<li>Right-click on Brawl and select <code>Properties</code></li>
+				<li>Click <code>Verify</code> located in the sidebar</li>
+				<li>Check <code>Calculate</code> near the MD5 box at the bottom</li>
+				<li>Click the <code>Verify Integrity</code> button and wait for analysis to complete.</li>
+			</ul>
+			<p>Compatible <code>MD5</code> hashes may include:</p>
 			<ul>
 				<li>d18726e6dfdc8bdbdad540b561051087</li>
+				<li>52ce7160ced2505ad5e397477d0ea4fe</li>
 				<li>d8560b021835c9234c28be7ff9bcaaeb</li>
 				<li>5052e2e15f22772ab6ce4fd078221e96</li>
-				<li>52ce7160ced2505ad5e397477d0ea4fe</li>
 				<li>9f677c78eacb7e9b8617ab358082be32</li>
 				<li>1c4d6175e3cbb2614bd805d32aea7311</li>
 			</ul>
 			<p>
-				If your game is not working, and the hash isn't listed here, it is
+				If you have a bad dump or a mismatched MD5 hash, it is
 				probable that your ISO needs to be replaced.
 			</p>
 		</section>
