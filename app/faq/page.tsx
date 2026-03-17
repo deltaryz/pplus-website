@@ -261,7 +261,7 @@ const FAQ = () => (
 				How do I set up my Wii U GameCube adapter on a Mac?
 			</HA2>
 			<p>
-				Click here for the guide to use the Wii U GameCube Controller Adapter on
+				<a href="https://wiki.dolphin-emu.org/index.php?title=How_to_use_the_Official_GameCube_Controller_Adapter_for_Wii_U_in_Dolphin#GCAdapterDriver">Click here</a> for the guide to use the Wii U GameCube Controller Adapter on
 				Mac.
 			</p>
 		</section>
