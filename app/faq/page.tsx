@@ -35,7 +35,7 @@ const FAQ = () => (
 		<hr />
 		<section>
 			<HA2 id="os-support">
-				Can I run Project+ on Windows/Mac/Linux?
+				Can I run Project+ on Windows/Mac/Linux/Steam Deck?
 			</HA2>
 			<p>
 				Yes, you can download PC-compatible builds from the{" "}
