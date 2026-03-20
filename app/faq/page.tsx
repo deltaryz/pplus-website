@@ -13,6 +13,37 @@ const FAQ = () => (
 		<HA1 id="frequently-asked-questions">Frequently Asked Questions</HA1>
 		<hr />
 		<section>
+			<HA2 id="instructions">
+				Where are the install instructions?
+			</HA2>
+			<p>
+				Here is a <a href="https://docs.google.com/document/d/1ciEilZUnErUFPJCs0bxIM40Impu4VrIlBohxeD3dSqE/edit?tab=t.0">Google Docs install guide</a> and a <a href="https://youtu.be/4XynDH-eVDE">video tutorial</a> for all versions.
+			</p>
+		</section>
+		<hr />
+		<section>
+			<HA2 id="netplay-hackless-homebrew-usb-loading">
+				Can I run Project+ on a real Wii or Wii U?
+			</HA2>
+			<p>
+				Yes, Project+ supports booting on a real console (modded or unmodded) via Hackless, Homebrew, and USB Loader methods.
+
+				You can download console-compatible builds from the{" "}
+				<Link href="/download">Download</Link> page.
+			</p>
+		</section>
+		<hr />
+		<section>
+			<HA2 id="os-support">
+				Can I run Project+ on Windows/Mac/Linux?
+			</HA2>
+			<p>
+				Yes, you can download PC-compatible builds from the{" "}
+				<Link href="/download">Download</Link> page.
+			</p>
+		</section>
+		<hr />
+		<section>
 			<HA2 id="matchmaking">Does Project+ have matchmaking like Slippi?</HA2>
 			<p>
 				Unfortunately, Project+ does not have matchmaking like Slippi. Most
@@ -80,16 +111,6 @@ const FAQ = () => (
 		<section>
 			<HA2 id="updates">Will there be future updates to Project+?</HA2>
 			<p>Yes! Project+ is still in active development.</p>
-		</section>
-		<hr />
-		<section>
-			<HA2 id="netplay-hackless-homebrew-usb-loading">
-				Does Project+ have a Netplay / Hackless / Homebrew / USB Loader release?
-			</HA2>
-			<p>
-				Yes, you can download them from the{" "}
-				<Link href="/download">Download</Link> page.
-			</p>
 		</section>
 		<hr />
 		<section>
